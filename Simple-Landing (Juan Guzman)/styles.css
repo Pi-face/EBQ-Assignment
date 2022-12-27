@@ -1,0 +1,82 @@
+/******* LANDING PAGE STYLES *******/
+:root {
+  --clr-primary-200: #ebf4ff;
+  --clr-primary-400: #ffbe3c;
+
+  --clr-neutral-100: #fff;
+  --clr-neutral-900: #0a459e;
+
+  --ff-primary: font-family: 'Open Sans', sans-serif;
+  --ff-accent: "Open Sans", serif;
+  --ff-bold: font-family: 'Open Sans', sans-serif ;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff-primary);
+  font-weight: 400;
+  font-size: 1.3125rem;
+  line-height: 1.6;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--ff-accent);
+  
+}
+
+span{
+  font-family: var(--ff-bold);
+  font-weight: 700;
+}
+
+p{
+  font-family: var(--ff-primary);
+}
+
+section {
+  padding: 3rem 0;
+}
+
+.container {
+  margin: auto;
+}
+
+.background-light {
+  background-color: var(--clr-primary-200);
+}
+
+.background-dark {
+  background-color: var(--clr-neutral-900);
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* FOOTER */
+.header-color {
+  color: #ffffff;
+}
+
+
+/* DARK MODE */
+
+.dark-mode{
+  background-color: var(--clr-primary-400)
+}
